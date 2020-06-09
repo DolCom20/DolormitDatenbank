@@ -19,6 +19,6 @@ public class Schmerzvorne extends AppCompatActivity {
     {
         Toast.makeText(this, "Gedrückt!", Toast.LENGTH_LONG).show();
         Button oberschenkel = findViewById(R. id. obeinor);
-        oberschenkel.setBackgroundColor(Color.parseColor("#000000"));
+        oberschenkel.setBackgroundColor(Color.parseColor("#FFF25A"));
     }
 }
