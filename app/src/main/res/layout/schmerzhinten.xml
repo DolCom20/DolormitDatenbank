@@ -151,27 +151,27 @@
     <RadioGroup
 
     <RadioGroup
-    android:layout_width="88dp"
-    android:layout_height="64dp"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.189"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintVertical_bias="0.137">
+        android:layout_width="88dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137">
 
-    <RadioButton
-        android:id="@+id/vorne"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="vorne" />
+        <RadioButton
+            android:id="@+id/vorne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="vorne" />
 
-    <RadioButton
-        android:id="@+id/hinten"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="hinten" />
-</RadioGroup>
+        <RadioButton
+            android:id="@+id/hinten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hinten" />
+    </RadioGroup>
 
     <RadioGroup
         android:layout_width="90dp"
