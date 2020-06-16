@@ -361,6 +361,7 @@
     </RadioGroup>
 
     <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="88dp"
         android:layout_height="64dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -386,8 +387,12 @@
     <RadioGroup
         android:layout_width="90dp"
         android:layout_height="62dp"
-        tools:layout_editor_absoluteX="171dp"
-        tools:layout_editor_absoluteY="91dp" >
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="485dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <RadioButton
             android:id="@+id/links"
