@@ -259,55 +259,9 @@
         app:layout_constraintVertical_bias="0.826" />
 
     <RadioGroup
-        android:layout_width="59dp"
-        android:layout_height="162dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.073"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.386">
-
-        <RadioButton
-            android:id="@+id/nul"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:buttonTint="#BEFA47"
-            android:text="0" />
-
-        <RadioButton
-            android:id="@+id/eins"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:buttonTint="#7FD51C"
-            android:text="1" />
-
-        <RadioButton
-            android:id="@+id/zwei"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:buttonTint="#70AE27"
-            android:text="2" />
-
-        <RadioButton
-            android:id="@+id/drei"
-            android:layout_width="60dp"
-            android:layout_height="37dp"
-            android:buttonTint="#457013"
-            android:text="3" />
-
-        <RadioButton
-            android:id="@+id/vier"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:buttonTint="#233A08"
-            android:text="4" />
-
-    </RadioGroup>
-
-    <RadioGroup
-        android:layout_width="60dp"
+        android:layout_width="55dp"
         android:layout_height="193dp"
+        android:layout_marginEnd="200dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.295"
@@ -316,47 +270,47 @@
         app:layout_constraintVertical_bias="0.411">
 
         <RadioButton
+            android:id="@+id/eins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#BAE8B3"
+            android:text="1" />
+
+        <RadioButton
+            android:id="@+id/zwei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#77B158"
+            android:text="2" />
+
+        <RadioButton
+            android:id="@+id/drei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#50751C"
+            android:text="3" />
+
+        <RadioButton
+            android:id="@+id/vier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#D67474"
+            android:text="4" />
+
+        <RadioButton
             android:id="@+id/funf"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:buttonTint="#E6B9B9"
+            android:buttonTint="#CA4141"
             android:text="5" />
 
         <RadioButton
             android:id="@+id/sechs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:buttonTint="#C18888"
-            android:text="6" />
-
-        <RadioButton
-            android:id="@+id/sieben"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:buttonTint="#B86A6A"
-            android:text="7" />
-
-        <RadioButton
-            android:id="@+id/acht"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:buttonTint="#C55050"
-            android:text="8" />
-
-        <RadioButton
-            android:id="@+id/neun"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:buttonTint="#CA4141"
-            android:text="9" />
-
-        <RadioButton
-            android:id="@+id/zehn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:backgroundTint="@android:color/holo_red_dark"
-            android:buttonTint="#FF0000"
-            android:text="10" />
+            android:buttonTint="#6E0909"
+            android:text="6" />
 
     </RadioGroup>
 
