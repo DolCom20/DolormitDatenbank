@@ -274,6 +274,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:buttonTint="#BAE8B3"
+            android:onClick="schmerzstärke"
             android:text="1" />
 
         <RadioButton
@@ -281,6 +282,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:buttonTint="#77B158"
+            android:onClick="schmerzstärke"
             android:text="2" />
 
         <RadioButton
@@ -288,6 +290,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:buttonTint="#50751C"
+            android:onClick="schmerzstärke"
             android:text="3" />
 
         <RadioButton
@@ -295,6 +298,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:buttonTint="#D67474"
+            android:onClick="schmerzstärke"
             android:text="4" />
 
         <RadioButton
@@ -302,6 +306,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:buttonTint="#CA4141"
+            android:onClick="schmerzstärke"
             android:text="5" />
 
         <RadioButton
@@ -310,6 +315,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@android:color/holo_red_dark"
             android:buttonTint="#6E0909"
+            android:onClick="schmerzstärke"
             android:text="6" />
 
     </RadioGroup>
@@ -329,12 +335,14 @@
             android:id="@+id/vorne"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="checkvornehinten"
             android:text="vorne" />
 
         <RadioButton
             android:id="@+id/hinten"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="checkvornehinten"
             android:text="hinten" />
     </RadioGroup>
 
@@ -352,12 +360,14 @@
             android:id="@+id/links"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="checklinksrechts"
             android:text="links" />
 
         <RadioButton
             android:id="@+id/rechts"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="checklinksrechts"
             android:text="rechts" />
     </RadioGroup>
 

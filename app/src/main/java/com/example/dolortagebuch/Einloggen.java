@@ -9,6 +9,9 @@ import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+
 public class Einloggen extends AppCompatActivity {
 
     @Override
@@ -26,7 +29,10 @@ public class Einloggen extends AppCompatActivity {
 
     public void login(View view) {
 
-        // String passWord = Aus Datenbank auslesen
+
+
+
+                // String passWord = Aus Datenbank auslesen
         // float starpassword = Aus Datenbank auslesen
         String passWord = "dolor";
         float starpassword = (float) 3.5;
