@@ -140,7 +140,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/registrieren"
+        android:id="@+id/registrieren1"
         android:layout_width="129dp"
         android:layout_height="43dp"
         android:layout_marginStart="77dp"
@@ -167,7 +167,7 @@
         android:onClick="zurück"
         android:text="zurück"
         app:layout_constraintBottom_toTopOf="@+id/FelderAusfüllen"
-        app:layout_constraintEnd_toStartOf="@+id/registrieren"
+        app:layout_constraintEnd_toStartOf="@+id/registrieren2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email" />

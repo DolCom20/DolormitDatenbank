@@ -78,6 +78,7 @@ public class Registrieren extends AppCompatActivity {
 
         public void wechselBild(View view) {
             ImageView imgView = (ImageView) findViewById(R.id.Avatar);
+
             if (zähler == 3)
             {
                 zähler = 0;
